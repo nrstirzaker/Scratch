@@ -1,0 +1,55 @@
+Notes
+
+
+To Do
+
+seperate our koans
+submit koans to bit bucket
+send out email referencing koans
+get dispatcher code
+ensure answers are removed
+
+
+1) JavaScript the confused requirements
+	Very powerful, flexible language
+	Extra features to allow beginners to start coding quicly
+		e.g. type coercion, declaration hoisting, global variables
+
+		so the power of javascript is masked by langauge features added to make it simple for a beginner to get started. The jump from novice(amateure) to processional
+
+		Dreyfus - Model of skill aquisition - P17
+		
+
+		Novice 
+		"rigid adherence to taught rules or plans"
+		no exercise of "discretionary judgment"
+
+		Expert
+		transcends reliance on rules, guidelines, and maxims
+		"intuitive grasp of situations based on deep, tacit understanding"
+		has "vision of what is possible"
+		uses "analytical approaches" in new situations or in case of problems
+
+
+
+2) Please give me rules and stop trying to help me
+	First Koan
+
+3) Object Orientated Program Languages have to know what "this" is
+	I have only limited expereince of functional languages and maybe other functional languages have the same issues as JavaScript but "this" is really confusing. How easy is it to teach the rules of what "this" is to a novice
+
+
+	Basic rule - the value of "this" is defined by the developer who is calling your function not by you as the function author. This rule sounds simple but its consequences are massive. 
+ 
+ 	Rules for Schrodingers "this"
+	1) Method this - safe ground - "this" as you'd expect
+		Is there something left of the function (a method)
+	2) Function this - I don't care what you call me just call me
+		Not black box, tight coupling 
+	3) Constrution this
+		this is the object being constructed.....obviously
+	4) call/apply this - I'm in charge
+		The developer forces the issue
+
+	Ultimate rule, don't use "this"
+
